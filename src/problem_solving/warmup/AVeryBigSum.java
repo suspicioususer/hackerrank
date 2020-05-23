@@ -1,4 +1,5 @@
-package warmup;
+package problem_solving.warmup;
+
 import java.util.Scanner;
 
 public class AVeryBigSum {

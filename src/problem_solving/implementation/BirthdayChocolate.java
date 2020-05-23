@@ -1,6 +1,5 @@
-package implementation;
+package problem_solving.implementation;
 
-import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 
@@ -20,7 +19,7 @@ public class BirthdayChocolate {
 		return result;
     }
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
     	
     	List<Integer> s = Arrays.asList(new Integer[] {1, 2, 1 ,3, 2});
     	int d = 3;

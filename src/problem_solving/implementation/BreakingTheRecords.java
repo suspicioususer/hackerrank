@@ -1,6 +1,4 @@
-package implementation;
-
-import java.io.IOException;
+package problem_solving.implementation;
 
 public class BreakingTheRecords {
 
@@ -20,7 +18,7 @@ public class BreakingTheRecords {
 		return result;
 	}
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) {
 		String sampleInput = "10 5 20 20 4 5 2 25 1";
 		int n = 9;
 		int[] scores = new int[n];

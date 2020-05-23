@@ -1,4 +1,4 @@
-package implementation;
+package problem_solving.implementation;
 
 public class DivisibleSumPairs {
 

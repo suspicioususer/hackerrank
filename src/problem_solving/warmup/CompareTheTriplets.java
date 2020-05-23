@@ -1,8 +1,9 @@
-package warmup;
+package problem_solving.warmup;
 
 import java.util.Scanner;
 
 public class CompareTheTriplets {
+	
 	public static void main(String[] args) {
 		int alice = 0, bob = 0;
 		Scanner scanner = new Scanner(System.in);
