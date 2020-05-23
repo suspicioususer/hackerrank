@@ -3,7 +3,7 @@ package problem_solving.warmup;
 import java.util.Scanner;
 
 public class SimpleArraySum {
-	
+
 	public static void main(String[] args) {
 		int size;
 		Scanner scanner = new Scanner(System.in);

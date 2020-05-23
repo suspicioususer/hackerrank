@@ -24,7 +24,7 @@ public class MiniMaxSum {
 					temp += (long) values[j];
 				}
 			}
-			
+
 			min = Math.min(min, temp);
 			max = Math.max(max, temp);
 

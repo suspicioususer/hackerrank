@@ -10,7 +10,7 @@ public class BonAppetit {
 		int billTotal = bill.stream().mapToInt(x -> x.intValue()).sum();
 		bill.remove(k);
 		int billExcept = bill.stream().mapToInt(x -> x.intValue()).sum();
-		if(billExcept / 2 == b) {
+		if (billExcept / 2 == b) {
 			System.out.println("Bon Appetit");
 		} else {
 			System.out.println((billTotal - billExcept) / 2);

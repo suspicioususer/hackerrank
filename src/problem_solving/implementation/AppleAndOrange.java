@@ -11,7 +11,7 @@ public class AppleAndOrange {
 		int[] apples;
 		int[] oranges;
 		int tempCounter = 0;
-		
+
 		for (int i = 0; i < 6; i++) {
 			int temp = 0;
 			temp = scanner.nextInt();
@@ -82,10 +82,10 @@ public class AppleAndOrange {
 				tempCounter++;
 			}
 		}
-		
+
 		System.out.println(tempCounter);
 		tempCounter = 0;
-		
+
 		for (int i = 0; i < oranges.length; i++) {
 			int temp = values.get('b') + oranges[i];
 			if (temp >= values.get('s') && temp <= values.get('t')) {

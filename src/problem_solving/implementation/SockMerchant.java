@@ -5,11 +5,11 @@ public class SockMerchant {
 	public static int sockMerchant(int n, int[] ar) {
 		int result = 0;
 		for (int i = 0; i < n; i++) {
-			if(ar[i] == -1) {
+			if (ar[i] == -1) {
 				continue;
 			}
 			for (int j = i + 1; j < n; j++) {
-				if(ar[i] == ar[j]) {
+				if (ar[i] == ar[j]) {
 					result++;
 					ar[i] = -1;
 					ar[j] = -1;

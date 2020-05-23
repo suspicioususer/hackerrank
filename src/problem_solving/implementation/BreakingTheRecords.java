@@ -3,14 +3,14 @@ package problem_solving.implementation;
 public class BreakingTheRecords {
 
 	public static int[] breakingRecords(int[] scores) {
-		int[] result = {0, 0};
+		int[] result = { 0, 0 };
 		int minValue, maxValue;
 		minValue = maxValue = scores[0];
-		for(int i = 1; i < scores.length; i++) {
-			if(scores[i] < minValue) {
+		for (int i = 1; i < scores.length; i++) {
+			if (scores[i] < minValue) {
 				minValue = scores[i];
 				++result[1];
-			} else if( scores[i] > maxValue) {
+			} else if (scores[i] > maxValue) {
 				maxValue = scores[i];
 				++result[0];
 			}
